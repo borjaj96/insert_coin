@@ -1,0 +1,19 @@
+/*FACTURA*/
+.tablaFactura {
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+.tablaFactura th, .tablaFactura td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+  
+.tablaFactura th {
+  background-color: #f2f2f2;
+}
+  
+.tablaFactura tfoot th {
+  text-align: right;
+}

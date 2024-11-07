@@ -1,0 +1,67 @@
+/*HEADER*/
+.nav-item a{
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav a{
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item a:hover, .navbar-nav a:hover{
+    color: #ff5757;
+}
+
+.barraNavegacion{
+    margin-left: 2%;
+}
+
+.active{
+    color: #ff5757 !important;
+}
+
+.login{
+    font-size: 30px;
+}
+
+.dropdown-item{
+    color: lime;
+}
+
+.navbar-nav  {
+    --bs-nav-link-padding-x: unset !important;
+    --bs-nav-link-padding-y: unset !important;
+}
+
+@media (max-width: 991px) {
+
+    header .navbar .container{
+        text-align: right;
+        font-size: 40px;
+    }
+
+    .hola{
+        font-size: 40px;
+    }
+    .navbar-nav .dropdown-menu{
+        text-align: right;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px){
+
+    header .navbar .container{
+        text-align: center;
+    }
+
+    .navbar-nav .dropdown-menu{
+        text-align: center;
+        font-size: 25px !important;
+    }
+
+    .navbar-nav, .me-auto{
+        font-size: 20px !important;
+    }
+}

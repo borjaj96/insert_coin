@@ -1,0 +1,22 @@
+CREDENCIALES ADMINISTRADOR
+Email: admin@admin.com
+Contraseña: Admin1
+
+Email: admin2@admin.com
+Contraseña: Admin2
+
+Email: clau@clau.com
+Contraseña: Clau1
+
+CREDENCIALES USUARIO
+Email: borja.jorge.estrella@gmail.com
+Contraseña: Borja1
+DNI: 05316561L
+
+Email: juan@juan.com
+Contraseña: Juan1
+DNI: 05316568L
+
+Email: lolo@lolo.com
+Contraseña: Lolo1
+DNI: 05316567L

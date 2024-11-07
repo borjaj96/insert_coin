@@ -1,0 +1,70 @@
+/*MAIN*/
+main{
+    margin-top: 100px;
+}
+.carta{
+    background-color: transparent;
+}
+
+img{
+    width: 120%;
+}
+
+.sliderPrincipal{
+    --bs-gutter-x: 0;
+}
+
+:root {
+    --mi-color: #ff5757; /* Este es el color personalizado */
+}
+
+body{
+    background-color: var(--mi-color);
+}
+
+body {
+    height: 100%;
+}
+
+  .containerPrincipal {
+    min-height: 62.7vh; 
+}
+
+main{
+    min-height: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.flechaAtras{
+    font-size: 40px;
+    color: grey;
+}
+
+.flechaAtras:hover{
+    color: #ff5757;
+}
+
+.rojo{
+    color: #ff5757;
+    font-size: 20px;
+}
+
+/*PAGINA DE ARTICULOS*/
+.cardArticuloCategoria{
+    height: 25rem;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .containerPrincipal {
+        min-height: 66.4vh;
+    }
+}

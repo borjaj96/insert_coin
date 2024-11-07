@@ -1,0 +1,35 @@
+/*FOOTER*/
+.enlacesFooter a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.enlacesFooter a:hover{
+    color: #ff5757;
+}
+
+.desarrollado{
+    color: white;
+    text-align: center;
+}
+
+.contacto{
+    font-weight: bold;
+    color: white;
+}
+
+.datoContacto{
+    color: white;
+}
+
+.logoFooter{
+    width: 70%;
+}
+
+@media (max-width: 767px) {
+ 
+    footer{
+        text-align: center;
+    }
+}

@@ -1,0 +1,99 @@
+/*PRODUCTOS Y GESTION*/
+
+/*PAGINA DE GESTION PRODUCTO USER*/
+.fotoVendidoGestion{
+    width: 50px; 
+    object-fit: cover;/* Ajusta la imagen al contenedor */
+}
+
+/*PAGINA DE PRODUCTO*/
+.fotoProducto{
+    width: -webkit-fill-available; 
+}
+.fotoCardProducto{
+    height: 100px; 
+    object-fit: cover;/* Ajusta la imagen al contenedor */
+}
+
+.fotoVendido{
+    width: 300px; 
+    object-fit: cover;/* Ajusta la imagen al contenedor */
+}
+
+//GESTION PRODUCTOS USER
+.btnSubirProducto{
+    margin-right: 0.5em;
+}
+
+//CREAR/EDITAR PRODUCTO/ ARTICULO
+.fotoSubida img{
+    max-width: 250px !important;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.sad{
+    text-align: center;
+    width: 70px;
+    color: #ff5757;
+}
+
+@media (min-width: 992px) {
+    .nombreProducto{
+        display: none; 
+    }
+}
+
+@media (max-width: 991px) {
+    .nombreProducto{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    //PAGINA DE PRODUCTO
+    .nombreProducto{
+        display: flex;
+        padding-top: 1rem !important;
+        text-align: center !important;
+    }
+    .nombreProducto2{
+        display: none;
+    }
+
+    .mb-5{
+        margin-bottom: 0px !important;
+        
+    }
+
+    .mt-5{
+        margin-top: 1em !important;
+    }
+
+    .descripcionProducto{
+        margin-top: 20px;
+    }
+
+    .precioProducto{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .rojo{
+        text-align: center;
+    }
+
+    .botonCompra{
+        text-align: center;
+    }
+
+    //GESTION PRODUCTOS USER
+    .btnSubirProducto{
+        text-align: center;
+    }
+
+}

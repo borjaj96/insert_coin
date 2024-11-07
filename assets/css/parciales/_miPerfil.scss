@@ -1,0 +1,54 @@
+//MI PERFIL
+.enlaceHistorial{
+    color: grey;
+    font-weight: bold;
+    text-align: right;
+}
+
+.enlaceHistorial:hover{
+    color: #ff5757;
+}
+
+@media (min-width: 992px) {
+    .miPerfil{
+        margin-left: 200px;
+    }
+
+    .botonesMiPerfil{
+        margin-left: -100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .botonDpers2{
+        margin-right: 20px;
+    }
+
+    .pedido{
+        margin-top: 30px;
+    }
+
+    .crearProducto{
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .botonesMiPerfil{
+        display: block !important;
+    }
+
+    .botonesMiPerfil .pb-5{
+        padding-bottom: 0px !important;
+    }
+
+    .enlaceHistorial{
+        text-align: center;
+        font-size: 100%
+    }
+
+    .botonDpers{
+        font-size: 90%;
+    }
+}

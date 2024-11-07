@@ -1,0 +1,623 @@
+/*HEADER*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+.nav-item a {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  color: white;
+}
+
+.nav-item a:hover, .navbar-nav a:hover {
+  color: #ff5757;
+}
+
+.barraNavegacion {
+  margin-left: 2%;
+}
+
+.active {
+  color: #ff5757 !important;
+}
+
+.login {
+  font-size: 30px;
+}
+
+.dropdown-item {
+  color: lime;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-x: unset !important;
+  --bs-nav-link-padding-y: unset !important;
+}
+
+@media (max-width: 991px) {
+  header .navbar .container {
+    text-align: right;
+    font-size: 40px;
+  }
+  .hola {
+    font-size: 40px;
+  }
+  .navbar-nav .dropdown-menu {
+    text-align: right;
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  header .navbar .container {
+    text-align: center;
+  }
+  .navbar-nav .dropdown-menu {
+    text-align: center;
+    font-size: 25px !important;
+  }
+  .navbar-nav, .me-auto {
+    font-size: 20px !important;
+  }
+}
+/*MAIN*/
+main {
+  margin-top: 100px;
+}
+
+.carta {
+  background-color: transparent;
+}
+
+img {
+  width: 120%;
+}
+
+.sliderPrincipal {
+  --bs-gutter-x: 0;
+}
+
+:root {
+  --mi-color: #ff5757; /* Este es el color personalizado */
+}
+
+body {
+  background-color: var(--mi-color);
+}
+
+body {
+  height: 100%;
+}
+
+.containerPrincipal {
+  min-height: 62.7vh;
+}
+
+main {
+  min-height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.flechaAtras {
+  font-size: 40px;
+  color: grey;
+}
+
+.flechaAtras:hover {
+  color: #ff5757;
+}
+
+.rojo {
+  color: #ff5757;
+  font-size: 20px;
+}
+
+/*PAGINA DE ARTICULOS*/
+.cardArticuloCategoria {
+  height: 25rem;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .containerPrincipal {
+    min-height: 66.4vh;
+  }
+}
+/*NOTICIA PRINCIPAL*/
+.imagen-principal {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.imagen-principal img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.5s;
+}
+
+.imagen-principal a {
+  color: black;
+}
+
+.imagen-principal a:hover {
+  color: #ff5757;
+  filter: brightness(90%);
+}
+
+.imagen-principal:hover img {
+  filter: brightness(90%);
+}
+
+.image-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+/*DESTACADOS*/
+.imgdestacado:hover {
+  filter: brightness(20%);
+}
+
+.card-title:hover {
+  color: #ff5757;
+}
+
+/*NOTICIAS*/
+.noticia:hover {
+  color: #ff5757;
+}
+
+.mt-5 {
+  margin-top: 5rem !important;
+}
+
+.fotoCardNoticia {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta la imagen al contenedor */
+}
+
+.container-noticias {
+  padding-bottom: 20px;
+}
+
+.form-container {
+  max-width: 100% !important;
+}
+
+/*MEJOR VALORADOS*/
+.tablaApi {
+  height: 1285px;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .tablaApi {
+    --bs-gutter-x: 0rem !important;
+    height: 1925px;
+  }
+}
+@media (max-width: 767px) {
+  .tituloNoticiaPrincipal {
+    font-size: 80%;
+  }
+  .tablaApi {
+    --bs-gutter-x: 0rem !important;
+  }
+  .botonCrearArt {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.enlaceHistorial {
+  color: grey;
+  font-weight: bold;
+  text-align: right;
+}
+
+.enlaceHistorial:hover {
+  color: #ff5757;
+}
+
+@media (min-width: 992px) {
+  .miPerfil {
+    margin-left: 200px;
+  }
+  .botonesMiPerfil {
+    margin-left: -100px;
+  }
+}
+@media (max-width: 991px) {
+  .botonDpers2 {
+    margin-right: 20px;
+  }
+  .pedido {
+    margin-top: 30px;
+  }
+  .crearProducto {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .botonesMiPerfil {
+    display: block !important;
+  }
+  .botonesMiPerfil .pb-5 {
+    padding-bottom: 0px !important;
+  }
+  .enlaceHistorial {
+    text-align: center;
+    font-size: 100%;
+  }
+  .botonDpers {
+    font-size: 90%;
+  }
+}
+/*PRODUCTOS Y GESTION*/
+/*PAGINA DE GESTION PRODUCTO USER*/
+.fotoVendidoGestion {
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta la imagen al contenedor */
+}
+
+/*PAGINA DE PRODUCTO*/
+.fotoProducto {
+  width: -webkit-fill-available;
+}
+
+.fotoCardProducto {
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta la imagen al contenedor */
+}
+
+.fotoVendido {
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta la imagen al contenedor */
+}
+
+.btnSubirProducto {
+  margin-right: 0.5em;
+}
+
+.fotoSubida img {
+  max-width: 250px !important;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sad {
+  text-align: center;
+  width: 70px;
+  color: #ff5757;
+}
+
+@media (min-width: 992px) {
+  .nombreProducto {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .nombreProducto {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .nombreProducto {
+    display: flex;
+    padding-top: 1rem !important;
+    text-align: center !important;
+  }
+  .nombreProducto2 {
+    display: none;
+  }
+  .mb-5 {
+    margin-bottom: 0px !important;
+  }
+  .mt-5 {
+    margin-top: 1em !important;
+  }
+  .descripcionProducto {
+    margin-top: 20px;
+  }
+  .precioProducto {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .rojo {
+    text-align: center;
+  }
+  .botonCompra {
+    text-align: center;
+  }
+  .btnSubirProducto {
+    text-align: center;
+  }
+}
+/*PEDIDOS*/
+@media (max-width: 767px) {
+  .pedido h3 {
+    text-align: center;
+    padding: 20px;
+  }
+}
+/*FORMULARIO REGISTRO*/
+.form-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.form-container input {
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
+.boton {
+  background-color: white !important;
+  border: 2px solid #ff5757;
+  color: #ff5757;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #ff5757 !important;
+  color: white;
+  border: 2px solid #ff5757 !important;
+}
+
+.contraOlvidada {
+  color: #a19e9e;
+}
+
+.contraOlvidada:hover {
+  color: #FF5757;
+}
+
+/*FORMULARIO CREAR-EDITAR*/
+.titulo {
+  margin-top: 110px;
+}
+
+/*VALIDAR FORMULARIOS*/
+.campo-invalido {
+  border: 2px solid red;
+}
+
+.campo-valido {
+  border: 2px solid green;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .hacerPedido {
+    margin-top: 0px !important;
+  }
+}
+/*TARJETA CE CREDITO*/
+.card-wrap {
+  display: table;
+  width: 350px;
+  margin: auto;
+  position: relative;
+}
+
+.tarjeta {
+  border-radius: 8px;
+  height: 200px;
+  position: relative;
+  color: #CCC;
+  font-family: "Ubuntu Mono", monospace;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+  background: #004768;
+  background: linear-gradient(to right, #004768 0%, #00325b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#004768", endColorstr="#00325b",GradientType=1 );
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-wrap:hover .card-front {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+
+.card-wrap:hover .card-back {
+  transform: rotateY(0);
+  opacity: 1;
+}
+
+.flag {
+  width: 28%;
+  top: 0;
+  right: 0;
+  height: 70px;
+  position: absolute;
+  border-top-right-radius: 8px;
+}
+
+.flag img {
+  width: 100%;
+  height: auto;
+}
+
+.label {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+
+.value {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.number {
+  font-size: 24px;
+  line-height: 1;
+  position: absolute;
+  top: 80px;
+  left: 15px;
+}
+
+.number span {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.owner-data {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 0 0 8px 8px;
+}
+
+.validate {
+  text-align: center;
+}
+
+.bar {
+  background-color: #CCC;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.secret-code {
+  position: absolute;
+  top: 100px;
+  right: 15px;
+}
+
+.animate {
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@media (max-width: 991px) {
+  .seccionDatos {
+    width: 250px !important;
+  }
+  .seccionTarjeta {
+    padding: 1.5rem !important;
+  }
+  .number {
+    font-size: 14px !important;
+  }
+  .label {
+    font-size: 10px !important;
+  }
+  .value {
+    font-size: 14px !important;
+  }
+  .tarjeta {
+    height: 170px !important;
+  }
+}
+@media (max-width: 767px) {
+  .seccionDatos {
+    width: 250px !important;
+  }
+  .number {
+    font-size: 14px !important;
+  }
+  .label {
+    font-size: 10px !important;
+  }
+  .value {
+    font-size: 14px !important;
+  }
+  .tarjeta {
+    height: 170px !important;
+  }
+}
+/*FACTURA*/
+.tablaFactura {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablaFactura th, .tablaFactura td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.tablaFactura th {
+  background-color: #f2f2f2;
+}
+
+.tablaFactura tfoot th {
+  text-align: right;
+}
+
+/*FOOTER*/
+.enlacesFooter a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.enlacesFooter a:hover {
+  color: #ff5757;
+}
+
+.desarrollado {
+  color: white;
+  text-align: center;
+}
+
+.contacto {
+  font-weight: bold;
+  color: white;
+}
+
+.datoContacto {
+  color: white;
+}
+
+.logoFooter {
+  width: 70%;
+}
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */

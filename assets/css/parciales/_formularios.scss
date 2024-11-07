@@ -1,0 +1,57 @@
+/*FORMULARIO REGISTRO*/
+.form-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.form-container input{
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.boton{
+    background-color: white !important;
+    border: 2px solid #ff5757;
+    color: #ff5757;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: #ff5757 !important;
+    color: white;
+    border: 2px solid #ff5757 !important;
+}
+
+.contraOlvidada{
+    color: #a19e9e;
+}
+
+.contraOlvidada:hover{
+    color: #FF5757;
+}
+
+/*FORMULARIO CREAR-EDITAR*/
+.titulo{
+    margin-top: 110px; 
+}
+
+/*VALIDAR FORMULARIOS*/
+.campo-invalido {
+    border: 2px solid red;
+}
+  
+.campo-valido {
+   border: 2px solid green;  
+}
+
+.error-message{
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .hacerPedido{
+        margin-top: 0px !important;
+    }
+}
